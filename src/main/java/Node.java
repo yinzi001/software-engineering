@@ -182,6 +182,7 @@ public class Node {
 
         //random traverse
         Random random = new Random();
+        System.out.println("randomwalk：");
         try {
             while (!node.children.isEmpty()) {
                 //判断是否已经访问过边和点，如果访问过，就stop
